@@ -15,6 +15,7 @@ public class Main {
         System.out.println("El número es igual a 0");
     }
 
+    System.out.println("-------------");
     /*Crea un bucle While, este bucle tendrá que tener como condición que la
       variable numeroWhile sea inferior a 3, el bloque de código que tendrá el bucle deberá:
       Incrementar el valor de la variable en uno cada vez que se ejecute.
@@ -28,6 +29,17 @@ public class Main {
         numeroWhile++;
 
     }
+
+    System.out.println("-------------");
+     //Para el bucle Do While, deberás crear la misma estructura que en el While, pero solo se debe ejecutar una vez.
+
+    int numeroDoWhile = 3;
+
+    do {
+        System.out.println("El número es: " + numeroDoWhile);
+        numeroDoWhile++;
+    } while (numeroDoWhile<3);
+
 
 
 
